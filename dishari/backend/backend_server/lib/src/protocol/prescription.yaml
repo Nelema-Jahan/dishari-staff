@@ -1,0 +1,14 @@
+---
+class: Prescription
+table: prescription
+fields:
+  prescriptionNumber: String
+  patientId: int
+  doctorId: int
+  date: DateTime
+  chiefComplaints: String?
+  observations: String?
+  diagnosis: String?
+  advice: String?
+  followUpDate: DateTime?
+  nextVisit: DateTime?

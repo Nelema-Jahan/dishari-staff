@@ -1,0 +1,11 @@
+---
+class: MedicalHistory
+table: medical_history
+fields:
+  patientId: int
+  condition: String
+  diagnosis: String
+  prescribedMedications: String
+  visitDate: DateTime
+  treatedBy: int?
+  notes: String?

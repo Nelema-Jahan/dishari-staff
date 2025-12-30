@@ -1,0 +1,53 @@
+name: dishari
+description: "A new Flutter project."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  bangla_pdf_fixer: ^2.0.0
+  flutter:
+    sdk: flutter
+
+  # Updated Serverpod packages to 3.1.1
+  serverpod_flutter: ^3.1.1
+  serverpod_client: ^3.1.1
+  serverpod_shared: ^3.1.1
+  serverpod_auth_client: ^3.1.1
+
+  backend_client:
+    path: packages/backend_client
+
+  # Other dependencies
+  cupertino_icons: ^1.0.8
+  file_picker: ^10.3.3
+  image_picker: ^1.0.4
+  intl: ^0.20.2
+  pdf: ^3.10.4
+  path_provider: ^2.1.1
+  open_file: ^3.3.1
+  universal_html: ^2.2.1
+  url_launcher: ^6.1.11
+  bijoy_helper: ^1.1.0
+  shared_preferences: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/nstu_logo.jpg
+    - assets/fonts/Kalpurush.ttf
+    - assets/fonts/OpenSans-VariableFont.ttf
+    - assets/medicine.txt
+
+  fonts:
+    - family: Kalpurush
+      fonts:
+        - asset: assets/fonts/Kalpurush.ttf

@@ -1,0 +1,58 @@
+adminEndpoints:
+  - listUsersByRole:
+  - toggleUserActive:
+  - createUser:
+  - createUserWithPassword:
+  - listMedicines:
+  - addMedicine:
+  - addMedicineBatch:
+  - getMedicineBatches:
+  - getLowStockItems:
+  - getRosters:
+  - saveRoster:
+  - submitChangeRequest:
+  - getMyChangeRequests:
+  - getAllChangeRequests:
+  - updateRequestStatus:
+  - addAuditLog:
+  - getAuditLogs:
+  - sendNotification:
+  - listNotifications:
+  - listStaff:
+  - getAdminProfile:
+  - updateAdminProfile:
+  - changePassword:
+  - updateStaffProfile:
+emergencyCase:
+  - create:
+  - read:
+  - readAll:
+  - update:
+  - delete:
+profile:
+  - getProfile:
+  - changePassword:
+  - updateProfile:
+medicalHistory:
+  - create:
+  - read:
+  - readAll:
+  - update:
+  - delete:
+patient:
+  - getPatientProfile:
+  - updatePatientProfile:
+prescription:
+  - create:
+  - read:
+  - readAll:
+  - update:
+  - delete:
+prescriptionItem:
+  - create:
+  - read:
+  - readAll:
+  - update:
+  - delete:
+greeting:
+  - hello:

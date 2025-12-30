@@ -1,0 +1,10 @@
+---
+class: PrescriptionItem
+table: prescription_item
+fields:
+  prescriptionId: int
+  medicineName: String
+  dosage: String
+  duration: String?
+  frequency: String?
+  instructions: String?

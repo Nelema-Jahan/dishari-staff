@@ -1,0 +1,10 @@
+---
+class: Patient
+table: patient
+fields:
+  userId: int?
+  patientId: String
+  department: String
+  session: String
+  emergencyContact: String?
+  createdAt: DateTime

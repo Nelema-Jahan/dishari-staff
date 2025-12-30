@@ -1,0 +1,16 @@
+---
+class: EmergencyCase
+table: emergency_case
+fields:
+  patientId: int?
+  patientName: String?
+  age: int?
+  gender: String?
+  phoneNumber: String?
+  bloodGroup: String?
+  emergencyType: String
+  severity: String
+  assignedDoctorId: int?
+  status: String
+  createdAt: DateTime
+  resolvedAt: DateTime?
